@@ -1,10 +1,10 @@
 ### How to setup
 
+1.  Run: `nvm install | nvm use`
 1.  Run: `npm i` to install the dependencies
-1.  Run: `npm run dev` to run Gatsby
-1.  You should see `The development server is listening at: http://localhost:8000`. Open that address in your browser and…
-1.  Start coding!
+1.  Run: `npm run start` to run start the application
+1.  The browser shold automatically open your browser at `http://localhost:3000`
 
 ### How to build
 
-1.  Run: `npm run build` to build website into `/public` folder
+1.  Run: `npm run build` to build the application into `/dist` folder
