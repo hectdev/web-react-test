@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.menu .menu-item {
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu .menu-item.active {
+    color: black;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.left-menu .menu-item {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.left-menu .menu-item.active {
+    color: blue;
+}
